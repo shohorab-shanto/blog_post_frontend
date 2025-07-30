@@ -4,6 +4,9 @@ This is a simple blog application frontend built with **Next.js** and styled usi
 
 # TO RUN FRONTEND MUST RUN BLOG POST PROJECT FOR BACKEND
 https://github.com/shohorab-shanto/blog_posts
+**Create a `.env.local` file:**
+Inside `.env.local`, add the following line, replacing `http://localhost:8000/api` with the actual base URL of your Laravel API.
+
 ## Features
 
 * **Public Blog Interface:** Displays a list of blog posts with pagination and search functionality.
@@ -46,44 +49,6 @@ Before you start, make sure you have the following installed on your computer:
 * **Node.js**: This includes npm (Node Package Manager). You can download it from [nodejs.org](https://nodejs.org/). It's recommended to use the LTS (Long Term Support) version.
 
 * **npm** or **Yarn**: npm comes with Node.js. If you prefer Yarn, you can install it globally: `npm install -g yarn`.
-
-### 3. Create the Next.js Project
-
-Open your terminal or command prompt and run the following command. This will create a new Next.js project named `react-blog-frontend` in your current directory.
-
-```
-npx create-next-app@latest react-blog-frontend
-```
-
-During the creation process, you'll be asked a few questions. Make sure to select **"Yes"** when it asks about using **Tailwind CSS**. You can choose the default options for the rest.
-
-Once the project is created, navigate into its directory:
-
-```
-cd react-blog-frontend
-```
-
-### 4. Copy the Provided Code
-
-Now, you'll replace or create files within your new `react-blog-frontend` directory with the code I've provided in our conversation.
-
-* **`pages/index.js` (Public Blog Frontend):**
-
-    1.  Open the `react-blog-frontend` folder.
-
-    2.  Go into the `pages` directory (`react-blog-frontend/pages/`).
-
-    3.  Open the `index.js` file.
-
-    4.  **Replace all the existing content** in `index.js` with the code from the `react-blog-frontend-final` immersive artifact (the one with pagination).
-
-* **`pages/admin.js` (Admin Panel - Demo Version):**
-
-    1.  In the same `pages` directory (`react-blog-frontend/pages/`), **create a new file** named `admin.js`.
-
-    2.  Open this new `admin.js` file.
-
-    3.  **Paste all the content** from the `react-blog-admin-final` immersive artifact (the demo version with pagination) into this file.
 
 ### 5. Install Dependencies
 
